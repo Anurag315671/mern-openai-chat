@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Orbit — ChatGPT Clone (MERN + OpenAI)
 
 A full-stack AI chat application built with **MongoDB, Express, React, Node.js, and the OpenAI API**. It includes persistent conversation history, a responsive chat UI, Markdown rendering, and server-side API key handling.
@@ -136,3 +137,6 @@ The server sends the recent 40 messages as context. User messages are capped at 
 ## License
 
 MIT
+=======
+# mern-openai-chat
+>>>>>>> cfbeb9ebacacc09acf7ac4955712862303e4ec18
