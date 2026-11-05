@@ -1,0 +1,21 @@
+{
+  "name": "mern-openai-chat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A full-stack ChatGPT-style chat app built with MongoDB, Express, React, Node.js, and the OpenAI Responses API.",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n server,client -c blue,green \"npm run dev --workspace=server\" \"npm run dev --workspace=client\"",
+    "build": "npm run build --workspace client",
+    "start": "npm run start --workspace server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
